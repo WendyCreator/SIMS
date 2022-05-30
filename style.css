@@ -1,0 +1,61 @@
+.error{
+    background-color: rgba(255,30,30,0.2);
+    display: block;
+    margin: 10px 5px;
+    color: rgba(255,30,30);
+}
+
+.success{
+    background-color: rgba(30,255,30,0.2);
+    display: block;
+    margin: 10px 5px;
+    color: rgb(12, 120, 12);
+}
+.form-group{
+    transition: opacity 2s;
+}
+.invisi{
+   opacity: 0;
+    
+}
+.visi{
+    opacity: 1;
+}
+
+/* image display style here########## */
+
+.image.slide{
+    height: 0;
+}
+.image{
+    /* background-color: #aaa;
+    color: #ccc;
+    font-size: 3rem; */
+ /* height: 300px;
+ width: 500px; */
+ overflow: hidden;
+ transition: all .5s;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 20%;
+ height: 220px;
+}
+.placeholder{
+background-color: #aaa;
+color: #ccc;
+font-size: 3rem;
+    /* padding: 3rem; */
+ height: 100%;
+ width: 100%;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* transition: all .5s; */
+}
+.image img{
+    /* height: 100%; */
+    max-width: 100%;
+}
+
